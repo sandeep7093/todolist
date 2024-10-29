@@ -1,0 +1,89 @@
+#div{
+    border: 2px solid black;
+    width:600px;
+    padding: 30px;
+    border-radius: 20px;
+    height:100%;
+    position: relative;
+    top:100px;
+    left:30%;
+    background-color:black;
+    height:200px;
+
+}
+input[type='text']{
+    font-size: 25px;
+    width:300px;
+    border-radius: 20px;
+    padding:5px;;
+    height:40px;
+    background-color:aliceblue;
+    border:0.5px solid aliceblue;
+}
+input[type="button"]{
+    width:100px;
+    
+    font-size: 20px;
+    border-radius: 10px;;
+    padding: 10px;
+    background-color:black;
+    color:white;
+    margin-left: 30px;
+}
+input[type="placeholder"]{
+    color:black;
+}
+.san{
+    border: 2px solid aliceblue;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: aliceblue;
+    
+    text-align:left;
+    padding: 10px;
+}
+h1{
+    color:black;
+    position: relative;
+    left:700px;
+    top:100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+input[type="button"]:hover{
+    background-color: white;
+    color:black
+
+}
+body{
+    background-color: aliceblue;
+}
+@media (max-width:400px) {
+    #div{
+        width:100%;
+        padding:20px;
+        overflow: hidden;
+        position: relative;
+        left:1px;
+        height:300px;
+    }
+    body{
+        overflow: hidden;
+    }
+    input[type='text']{
+        width:300px;
+        font-size: 16px;
+    }
+    h1{
+        position: relative;
+        left:130px;
+        font-size:40px;
+    }
+    input[type="button"]{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .san{
+        position: relative;
+        
+    }
+}
